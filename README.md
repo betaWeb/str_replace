@@ -9,9 +9,9 @@
  If no index found, then it returns the subject.
  
  Otherwize it splits the subject string into 3 parts :
-      - prefix : all chars before the searched word
-      - searched word
-      - suffix : all chars after the searched word
+   * prefix : all chars before the searched word
+   * searched word
+   * suffix : all chars after the searched word
  and it replaces the searched word by the replace parameter.
  
  Finally, it join prefix with replace and suffix, and returns it as string.
